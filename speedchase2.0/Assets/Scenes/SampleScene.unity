@@ -1965,6 +1965,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 50281620}
+  - component: {fileID: 50281622}
+  - component: {fileID: 50281621}
   m_Layer: 0
   m_Name: secteur D
   m_TagString: Untagged
@@ -1989,6 +1991,35 @@ Transform:
   m_Father: {fileID: 2103510709}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &50281621
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50281619}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &50281622
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50281619}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &52064581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28583,12 +28614,12 @@ Transform:
   - {fileID: 264212776}
   - {fileID: 11628837}
   - {fileID: 352747749}
-  - {fileID: 1454689229}
   - {fileID: 267942248}
   - {fileID: 958871585}
   - {fileID: 727688497}
   - {fileID: 213564152}
   - {fileID: 1827740654}
+  - {fileID: 1454689229}
   - {fileID: 1303716331}
   - {fileID: 1973664833}
   - {fileID: 1442394969}
@@ -35775,6 +35806,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 813844471}
+  - component: {fileID: 813844473}
+  - component: {fileID: 813844472}
   m_Layer: 0
   m_Name: secteur A
   m_TagString: Untagged
@@ -35799,6 +35832,35 @@ Transform:
   m_Father: {fileID: 2103510709}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &813844472
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813844470}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &813844473
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813844470}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &816356478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42709,7 +42771,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 14.3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -58781,6 +58843,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1310050316}
+  - component: {fileID: 1310050318}
+  - component: {fileID: 1310050317}
   m_Layer: 0
   m_Name: secteur C
   m_TagString: Untagged
@@ -58805,6 +58869,35 @@ Transform:
   m_Father: {fileID: 2103510709}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!54 &1310050317
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310050315}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1310050318
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310050315}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1312910905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92912,6 +93005,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2068464483}
+  - component: {fileID: 2068464485}
+  - component: {fileID: 2068464484}
   m_Layer: 0
   m_Name: secteur B
   m_TagString: Untagged
@@ -92936,6 +93031,35 @@ Transform:
   m_Father: {fileID: 2103510709}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!54 &2068464484
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068464482}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2068464485
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068464482}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2068850196
 PrefabInstance:
   m_ObjectHideFlags: 0
