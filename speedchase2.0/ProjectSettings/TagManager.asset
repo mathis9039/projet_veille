@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Batiment
+  - Trees
+  - Fences
   layers:
   - Default
   - TransparentFX
