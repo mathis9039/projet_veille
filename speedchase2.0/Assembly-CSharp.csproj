@@ -40,6 +40,7 @@
      <Compile Include="Assets\BrokenVector\LowPolyFencePack\Scripts\DoorToggle.cs" />
      <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
      <Compile Include="Assets\Script\CarControler.cs" />
+     <Compile Include="Assets\Script\Police.cs" />
      <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
      <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
      <None Include="Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />

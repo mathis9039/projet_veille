@@ -8,6 +8,7 @@ TagManager:
   - Trees
   - Fences
   - Ocean
+  - Obstacle
   layers:
   - Default
   - TransparentFX
