@@ -9,6 +9,7 @@ TagManager:
   - Fences
   - Ocean
   - Obstacle
+  - PNG
   layers:
   - Default
   - TransparentFX
