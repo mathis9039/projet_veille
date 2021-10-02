@@ -36,11 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\BrokenVector\LowPolyFencePack\Scripts\DoorController.cs" />
-     <Compile Include="Assets\BrokenVector\LowPolyFencePack\Scripts\DoorToggle.cs" />
-     <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
+     <Compile Include="Assets\AllPrefab\BrokenVector\LowPolyFencePack\Scripts\DoorController.cs" />
+     <Compile Include="Assets\AllPrefab\BrokenVector\LowPolyFencePack\Scripts\DoorToggle.cs" />
+     <Compile Include="Assets\AllPrefab\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
      <Compile Include="Assets\Script\CarControler.cs" />
      <Compile Include="Assets\Script\MainMenu.cs" />
+     <Compile Include="Assets\Script\Minimap.cs" />
      <Compile Include="Assets\Script\NPCNavController.cs" />
      <Compile Include="Assets\Script\PauseMenu.cs" />
      <Compile Include="Assets\Script\Police.cs" />
@@ -52,20 +53,20 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
+     <None Include="Assets\AllPrefab\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
+     <None Include="Assets\AllPrefab\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <None Include="Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
+     <None Include="Assets\AllPrefab\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-     <None Include="Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
+     <None Include="Assets\AllPrefab\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\BrokenVector\LowPolyTreePack\README.txt" />
-     <None Include="Assets\Cloudy Summer Day Skybox\CloudySummerDaySkybox_Info.txt" />
+     <None Include="Assets\AllPrefab\BrokenVector\LowPolyTreePack\README.txt" />
+     <None Include="Assets\AllPrefab\Cloudy Summer Day Skybox\CloudySummerDaySkybox_Info.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />

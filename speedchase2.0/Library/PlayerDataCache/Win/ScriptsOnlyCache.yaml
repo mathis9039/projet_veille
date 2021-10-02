@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - BrokenVector.LowPolyFencePack.DoorToggle
     - CarControler
     - MainMenu
+    - Minimap
     - NPCNavController
     - PauseMenu
     - Police
@@ -36,6 +37,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Slider
   sceneClasses:
     Assets/Scenes/Level.unity:
@@ -67,6 +69,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -94,6 +98,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12332}
     - Class: 114
+      Script: {instanceID: 12354}
+    - Class: 114
       Script: {instanceID: 12422}
     - Class: 114
       Script: {instanceID: 12554}
@@ -114,9 +120,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13172}
     - Class: 114
-      Script: {instanceID: 13202}
+      Script: {instanceID: 13222}
     - Class: 114
-      Script: {instanceID: 2964130}
+      Script: {instanceID: 49082}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -685,16 +691,22 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: c8c5e65e9fb858572516474d6e2102bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: c8c5e65e9fb858572516474d6e2102bc
+      Hash: 65b3a3b9a7779d539ec75a3ceddebdba
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PauseMenu
+    className: Minimap
   platform: 5
   scenePathNames:
   - Assets/Scenes/Menu.unity
